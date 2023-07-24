@@ -27,3 +27,6 @@
 /home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/obj/Debug/net7.0/Dropbox_file_upload.pdb
 /home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/obj/Debug/net7.0/Dropbox_file_upload.genruntimeconfig.cache
 /home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/obj/Debug/net7.0/ref/Dropbox_file_upload.dll
+/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/bin/Debug/net7.0/Dropbox.Api.dll
+/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/obj/Debug/net7.0/Dropbox_file_upload.csproj.CopyComplete

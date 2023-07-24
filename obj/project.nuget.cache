@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U+aUTcgiqF8Tq0w+sofQ1r5JAqmqluUgEW3yb6OzRc4aq85SfEBxAPiiBPfP2D0dCNynvlCUQwSYJ9aiqJes8Q==",
+  "dgSpecHash": "znRkY1jTQiCAglSHkelFsp74dBAiXYUViIZl5ySL3pkPBbdcYHbTN+2GDmlJszuJjZX2Pd3atOlL+1EPl4GMKw==",
   "success": true,
   "projectFilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Dropbox_file_upload.csproj",
   "expectedPackageFiles": [
+    "/home/kennedy_muthuri/.nuget/packages/dropbox.api/6.37.0/dropbox.api.6.37.0.nupkg.sha512",
+    "/home/kennedy_muthuri/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
     "/home/kennedy_muthuri/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.9/microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
   ],
   "logs": []
