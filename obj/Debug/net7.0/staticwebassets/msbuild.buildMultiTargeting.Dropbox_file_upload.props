@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Dropbox_file_upload.props" />
+</Project>

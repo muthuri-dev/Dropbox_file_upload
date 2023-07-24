@@ -2,8 +2,32 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="grid grid-cols-4 min-h-screen">
+    <div class="col-span-2 bg-gray-200 border">
+        <div class="flex justify-center gap-3 p-4 items-center">
+    <h1 class="font-bold">Upload file to <span class="text-teal-400">Dropbox</span></h1>
+    <image src="images/dropbox.png"alt="drop" height="40" width="40"/>
+    </div>
+    <div class="text-center pt-14 flex flex-col gap-5 items-center">
+    @* <EditForm Model=""> *@
+        @* <input type="file" class="border border-teal-600 rounded-xl h-10"/> *@
+        <InputFile class="border border-teal-600 rounded-xl h-10 w-[60%]"/>
+        <button class="bg-green-600 py-2 px-5 rounded-xl hover:bg-green-400 text-white w-[30%]">Save File</button>
+    @* </EditForm> *@
+</div>
+    </div>
+    <div class="col-span-2">
+        <h1 class="text-center font-bold p-10 underline">Preview the upload</h1>
+    </div>
+</div>
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+
+@* <div class="flex justify-center gap-3 p-4 items-center">
+    <h1 class="">Upload file to <span class="text-teal-400">Dropbox</span></h1>
+    <image src="images/dropbox.png"alt="drop" height="40" width="40"/>
+</div>
+<div class="text-center pt-14">
+    <input type="file" class="border border-teal-600 rounded-xl h-10"/>
+</div> *@

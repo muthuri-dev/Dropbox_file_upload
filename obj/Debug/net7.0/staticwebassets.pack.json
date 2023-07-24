@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/images/dropbox.png",
+      "PackagePath": "staticwebassets/images/dropbox.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Dropbox_file_upload.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Dropbox_file_upload.props",
+      "PackagePath": "build\\Dropbox_file_upload.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Dropbox_file_upload.props",
+      "PackagePath": "buildMultiTargeting\\Dropbox_file_upload.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Dropbox_file_upload.props",
+      "PackagePath": "buildTransitive\\Dropbox_file_upload.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

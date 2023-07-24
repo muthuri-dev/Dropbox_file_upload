@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "0eU48Dmm32TSX/ie0W7vt5CiEIQoUT4/h9zeta1Y86Q=",
+  "Source": "Dropbox_file_upload",
+  "BasePath": "_content/Dropbox_file_upload",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Dropbox_file_upload/wwwroot",
+      "Source": "Dropbox_file_upload",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/",
+      "BasePath": "_content/Dropbox_file_upload",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/css/site.css",
+      "SourceId": "Dropbox_file_upload",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/",
+      "BasePath": "_content/Dropbox_file_upload",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/favicon.png",
+      "SourceId": "Dropbox_file_upload",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/",
+      "BasePath": "_content/Dropbox_file_upload",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/images/dropbox.png",
+      "SourceId": "Dropbox_file_upload",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/wwwroot/",
+      "BasePath": "_content/Dropbox_file_upload",
+      "RelativePath": "images/dropbox.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/dropbox.png"
+    }
+  ]
+}

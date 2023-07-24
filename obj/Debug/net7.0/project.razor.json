@@ -50,80 +50,6 @@
         }
       },
       {
-        "HashCode": -1305752320,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Pages.Counter",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Dropbox_file_upload.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1589510539,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Pages.Counter",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Dropbox_file_upload.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Dropbox_file_upload.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1965802252,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Pages.FetchData",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Dropbox_file_upload.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 224378404,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Pages.FetchData",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Dropbox_file_upload.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Dropbox_file_upload.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1062683881,
         "Kind": "Components.Component",
         "Name": "Dropbox_file_upload.App",
@@ -156,65 +82,6 @@
           "Common.TypeName": "Dropbox_file_upload.App",
           "Common.TypeNameIdentifier": "App",
           "Common.TypeNamespace": "Dropbox_file_upload",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 341736658,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Shared.SurveyPrompt",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Dropbox_file_upload.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2125279522,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Shared.SurveyPrompt",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Dropbox_file_upload.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Dropbox_file_upload.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -323,43 +190,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1956774522,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Shared.NavMenu",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Dropbox_file_upload.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -264900443,
-        "Kind": "Components.Component",
-        "Name": "Dropbox_file_upload.Shared.NavMenu",
-        "AssemblyName": "Dropbox_file_upload",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Dropbox_file_upload.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Dropbox_file_upload.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Dropbox_file_upload.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -19015,11 +18845,6 @@
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -19027,21 +18852,6 @@
     {
       "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     }
   ],
