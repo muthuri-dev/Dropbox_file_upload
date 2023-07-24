@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U+aUTcgiqF8Tq0w+sofQ1r5JAqmqluUgEW3yb6OzRc4aq85SfEBxAPiiBPfP2D0dCNynvlCUQwSYJ9aiqJes8Q==",
+  "success": true,
+  "projectFilePath": "/home/kennedy_muthuri/Developer/Projects/Dropbox_file_upload/Dropbox_file_upload.csproj",
+  "expectedPackageFiles": [
+    "/home/kennedy_muthuri/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.9/microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
