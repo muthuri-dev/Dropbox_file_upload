@@ -1,4 +1,7 @@
-﻿@page "/"
+﻿@page "/";
+@using Dropbox.Api;
+@using Dropbox.Api.Files;
+@using Microsoft.JSInterop;
 
 <PageTitle>Index</PageTitle>
 
@@ -9,11 +12,10 @@
     <image src="images/dropbox.png"alt="drop" height="40" width="40"/>
     </div>
     <div class="text-center pt-14 flex flex-col gap-5 items-center">
-    @* <EditForm Model=""> *@
-        @* <input type="file" class="border border-teal-600 rounded-xl h-10"/> *@
-        <InputFile class="border border-teal-600 rounded-xl h-10 w-[60%]"/>
-        <button class="bg-green-600 py-2 px-5 rounded-xl hover:bg-green-400 text-white w-[30%]">Save File</button>
-    @* </EditForm> *@
+
+        <input type="file" id="fileInput" class="border border-teal-600 rounded-xl h-10 w-[60%]"/>
+        <button @onclick="UploadFile" class="bg-green-600 py-2 px-5 rounded-xl hover:bg-green-400 text-white w-[30%]">Save File</button>
+        <p>@uploadStatus</p>
 </div>
     </div>
     <div class="col-span-2">
@@ -21,13 +23,42 @@
     </div>
 </div>
 
+@code {
+    private string uploadStatus;
+    static string token = "sl.Bi0VwdAp8ONNeqSmYrqsbVcucay1vdI2n_H4U52VgFjcS3GX-1mUlzOS04eLFnmBu_Ki4gmNboPclNWKNIRwOgqknWWvOhl0n7SE4p82yo5kkLVJobdoo1kjM-SssvBxd-pFqRoRC2dC";
 
+    [Inject]
+    private IJSRuntime JSRuntime { get; set; }
 
+    private async Task UploadFile()
+    {
+        var fileInput = await JSRuntime.InvokeAsync<IJSObjectReference>("document.getElementById", "fileInput");
+        var fileList = await fileInput.InvokeAsync<IJSObjectReference>("files");
 
-@* <div class="flex justify-center gap-3 p-4 items-center">
-    <h1 class="">Upload file to <span class="text-teal-400">Dropbox</span></h1>
-    <image src="images/dropbox.png"alt="drop" height="40" width="40"/>
-</div>
-<div class="text-center pt-14">
-    <input type="file" class="border border-teal-600 rounded-xl h-10"/>
-</div> *@
+        if (await fileList.InvokeAsync<bool>("length"))
+        {
+            var file = await fileList.InvokeAsync<IJSObjectReference>("item", 0);
+            var fileName = await file.InvokeAsync<string>("name");
+            var fileStream = await file.InvokeAsync<IJSObjectReference>("stream");
+
+            // Convert the fileStream to a byte array to be used in the upload
+            var data = await JSRuntime.InvokeAsync<byte[]>("readFile", fileStream);
+
+            // Use the Dropbox API to upload the file
+            var dropboxAccessToken = token;
+            var dropboxClient = new DropboxClient(dropboxAccessToken);
+
+            var dropboxPath = $"/{fileName}";
+            var uploadResult = await dropboxClient.Files.UploadAsync(dropboxPath, WriteMode.Overwrite.Instance, body: new MemoryStream(data));
+
+            if (uploadResult != null)
+            {
+                uploadStatus = "File uploaded successfully!";
+            }
+            else
+            {
+                uploadStatus = "File upload failed!";
+            }
+        }
+    }
+}
