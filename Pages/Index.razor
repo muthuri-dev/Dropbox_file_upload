@@ -1,4 +1,42 @@
-@page "/"
+@* @page "/";
 @using Dropbox_file_upload.components;
 
-<Uploads/>
+<Uploads/> *@
+
+<!-- Index.razor -->
+@page "/"
+@using Microsoft.AspNetCore.Components.Forms
+
+<h3>Upload a File to Dropbox</h3>
+
+<InputFile OnChange="HandleFileSelected" />
+
+@if (fileData != null)
+{
+    <button @onclick="UploadFile">Upload</button>
+}
+
+@code {
+    private byte[] fileData;
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.GetMultipleFiles().FirstOrDefault();
+        if (file != null)
+        {
+            var ms = new System.IO.MemoryStream();
+            await file.OpenReadStream().CopyToAsync(ms);
+            fileData = ms.ToArray();
+        }
+    }
+
+    private async Task UploadFile()
+    {
+        if (fileData != null)
+        {
+            // Replace "{your_access_token}" with your Dropbox access token
+            var dropboxService = new DropboxService(new HttpClient(), "sl.Bi0VwdAp8ONNeqSmYrqsbVcucay1vdI2n_H4U52VgFjcS3GX-1mUlzOS04eLFnmBu_Ki4gmNboPclNWKNIRwOgqknWWvOhl0n7SE4p82yo5kkLVJobdoo1kjM-SssvBxd-pFqRoRC2dC");
+            await dropboxService.UploadFile("filename.txt", fileData);
+        }
+    }
+}
